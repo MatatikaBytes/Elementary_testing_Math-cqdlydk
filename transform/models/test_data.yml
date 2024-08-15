@@ -1,0 +1,7 @@
+version: 2
+
+seeds:
+  - name: test_data
+    tests:
+      - elementary.volume_anomalies:
+          timestamp_column: "date_added"
